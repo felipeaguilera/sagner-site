@@ -5,10 +5,109 @@
     <meta charset="UTF-8">
     <title>Alejandro Sagner SpA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #EBEBEB;
+            color: #36454F;
+        }
+
+        header {
+            background-color: #EBEBEB;
+            text-align: center;
+            padding: 3rem 1rem 2rem;
+        }
+
+        header img {
+            max-width: 260px;
+            height: auto;
+        }
+
+        .hero {
+            background-color: #EBEBEB;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 2rem;
+            background-color: #EBEBEB;
+        }
+
+        .left, .right {
+            flex: 1 1 300px;
+            margin: 1rem;
+        }
+
+        .left ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1rem;
+        }
+
+        .left ul li::before {
+            content: "✔️ ";
+        }
+
+        .contact p {
+            margin: 0.3rem 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #090E10;
+            color: #EBEBEB;
+            padding: 1.5rem 1rem;
+            font-size: 0.85rem;
+        }
+    </style>
 </head>
-<body style="font-family:sans-serif; background:#EBEBEB; color:#36454F; text-align:center; padding:2rem;">
-    <h1>Ingeniería de Precisión para la Minería Crítica</h1>
-    <p>Este sitio está en construcción.</p>
-    <p>Contacto: contacto@alejandrosagner.com</p>
+<body>
+    <header>
+        <img src="logo.svg" alt="Logo Alejandro Sagner">
+    </header>
+    <section class="hero">
+        <h1>Ingeniería de Precisión para la Minería Crítica</h1>
+        <p>Desarrollo y fabricación de componentes de alto rendimiento y soluciones de ingeniería a medida para la industria minera chilena.</p>
+    </section>
+    <section class="section">
+        <div class="left">
+            <ul>
+                <li>+20 años de experiencia comprobada</li>
+                <li>Ingeniería inversa aplicada</li>
+                <li>Alta confiabilidad y trazabilidad total</li>
+                <li>Socio estratégico en flotas críticas</li>
+            </ul>
+        </div>
+        <div class="right contact">
+            <p><strong>Alejandro Sagner SpA</strong> · 77.704.639-K</p>
+            <p>Av. Colón 3646-154A, Las Condes</p>
+            <p>+56 2 2453 3157</p>
+            <p>contacto@alejandrosagner.com</p>
+            <p>www.alejandrosagner.com</p>
+        </div>
+    </section>
+    <footer>
+        © 2025 Alejandro Sagner SpA. Todos los derechos reservados. V1.0.202504a
+    </footer>
 </body>
 </html>
