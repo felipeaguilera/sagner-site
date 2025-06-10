@@ -1,113 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Alejandro Sagner SpA</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
-
-        body {
-            margin: 0;
-            font-family: 'Inter', sans-serif;
-            background-color: #EBEBEB;
-            color: #36454F;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-
-        header img {
-            max-width: 320px;
-            height: auto;
-            margin-bottom: 1.5rem;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.3rem;
-            margin-bottom: 1rem;
-        }
-
-        .hero p {
-            font-size: 1.1rem;
-            font-weight: 400;
-            max-width: 700px;
-            margin: 0 auto 2rem;
-        }
-
-        .section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2rem;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-        }
-
-        ul li {
-            margin: 0.5rem 0;
-        }
-
-        .contact p {
-            margin: 0.3rem 0;
-        }
-
-        footer {
-            text-align: center;
-            background-color: #090E10;
-            color: #EBEBEB;
-            padding: 1.5rem 1rem;
-            font-size: 0.85rem;
-        }
-
-        @media(min-width: 768px) {
-            .section {
-                flex-direction: row;
-                justify-content: space-between;
-                text-align: left;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alejandro Sagner SpA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="hero">
     <div class="container">
-        <header>
-            <img src="logo.svg" alt="Logo Alejandro Sagner">
-        </header>
-        <section class="hero">
-            <h1>Ingeniería de Precisión para la Minería Crítica</h1>
-            <p>Desarrollo y fabricación de componentes de alto rendimiento y soluciones de ingeniería a medida para la industria minera chilena.</p>
-        </section>
-        <section class="section">
-            <div class="left">
-                <ul>
-                    <li>+20 años de experiencia comprobada</li>
-                    <li>Ingeniería inversa aplicada</li>
-                    <li>Alta confiabilidad y trazabilidad total</li>
-                    <li>Socio estratégico en flotas críticas</li>
-                </ul>
-            </div>
-            <div class="right contact">
-                <p><strong>Alejandro Sagner SpA</strong> · 77.704.639-K</p>
-                <p>Av. Colón 3646-154A, Las Condes</p>
-                <p>+56 2 2453 3157</p>
-                <p>contacto@alejandrosagner.com</p>
-                <p>www.alejandrosagner.com</p>
-            </div>
-        </section>
+      <h1 class="hero-title">Ingeniería de Precisión para la Minería Crítica</h1>
+      <p class="hero-subtitle">Componentes y soluciones de alto rendimiento para equipos críticos</p>
     </div>
-    <footer>
-        © 2025 Alejandro Sagner SpA. Todos los derechos reservados. V1.0.202504a
-    </footer>
+  </header>
+
+  <section class="section valor">
+    <div class="container">
+      <h2>Más de 20 años de experiencia comprobada</h2>
+      <p>Nos consolidamos como referentes en ingeniería de precisión para la minería chilena. Comprometidos con la calidad, durabilidad y continuidad operacional.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Alejandro Sagner SpA</p>
+    </div>
+  </footer>
 </body>
 </html>
