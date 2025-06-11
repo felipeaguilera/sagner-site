@@ -6,7 +6,7 @@ body {
   background-color: #EBEBEB;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Playfair Display', serif;
 }
 
@@ -33,6 +33,14 @@ h1, h2 {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 24px;
+  border-radius: 12px;
 }
 
 .section {
@@ -43,6 +51,43 @@ h1, h2 {
 
 .section.valor {
   background-color: #F9F9F9;
+}
+
+.section.cta {
+  background-color: #36454F;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 24px;
+  flex: 1 1 30%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.btn {
+  background-color: #B19461;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 24px;
 }
 
 .footer {
